@@ -20,13 +20,13 @@ FYP 2018
 ## Set up dependencies for Project Website:
 1. You must have python(latest version), django, numpy, pandas, nltk, textblob, sklearn,  installed on your system.
 2. To install use folloowing syntax given below on commad prompt of Windows, here package-name corespond to django, numpy, pandas, nltk, textblob, sklearn:
-    pip3 install package-name 
+    1. pip3 install package-name 
 3. Use the following syntax to import textblob corpora:
     python -m textblob.download_corpora
 4. Open Python terminal on windows command promt and install nltk following library:
-    >>import nltk
-    >>nltk.download('stopwords')
-    >>exit()
+    1. import nltk
+    2. nltk.download('stopwords')
+    3. exit()
 5. All required dependencies are installed now.
 
 ## How to Run Website
