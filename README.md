@@ -16,3 +16,28 @@ FYP 2018
     5. Neural Network
 6. Output a list of customers who have shown purchase intention towards the product.
 7. Develop a website to display the summary of our work and allow users to upload their dataset and train and/or test the pre-developed models for evaluation.
+
+## Set up dependencies for Project Website:
+1. You must have python(latest version), django, numpy, pandas, nltk, textblob, sklearn,  installed on your system.
+2. To install use folloowing syntax given below on commad prompt of Windows, here package-name corespond to django, numpy, pandas, nltk, textblob, sklearn:
+    pip3 install package-name 
+3. Use the following syntax to import textblob corpora:
+    python -m textblob.download_corpora
+4. Open Python terminal on windows command promt and install nltk following library:
+    >>import nltk
+    >>nltk.download('stopwords')
+    >>exit()
+5. All required dependencies are installed now.
+
+## How to Run Website
+1. Clone and download the complete repository and UnZip it.
+2. Using Windows Commmand Prompt(cmd) navigate to folder PurchaseIntention2 in the cloned repository.
+3. Then Type "Scripts\activate" on cmd to activate the virtual environment.
+4. Then Type "cd djangoPIWebsite" on cmd.
+5. Then finally type "python manage.py runserver" to run the server.
+5. On browser type "localhost:8000/"
+6. The Web Site is running now.
+7. To close server press Ctrl + C to exit the server. To re run type "python manage.py runserver".
+
+    
+
