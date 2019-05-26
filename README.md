@@ -1,7 +1,10 @@
 # CIP
 ### Consumer Intention Prediction using Twitter Data
 ### Intention Predictor
-FYP 2018
+FYP 2018-2019
+
+## Introduction
+Our project is a web application that predicts the likelihood/certainty that a customer will buy a product that he is interested in based on his social media posts such as Twitter tweets and user profile data. This will help the company/business target a particular customer more efficiently and boost their sales.
 
 ## Project Details:
 1. Scrap twitter tweets data and use twitter search API to build a dataset.
