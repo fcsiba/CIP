@@ -29,7 +29,7 @@ FYP 2018
     3. exit()
 5. All required dependencies are installed now.
 
-## How to Run Website
+## How to Run Website:
 1. Clone and download the complete repository and UnZip it.
 2. Using Windows Commmand Prompt(cmd) navigate to folder PurchaseIntention2 in the cloned repository.
 3. Then Type "Scripts\activate" on cmd to activate the virtual environment.
@@ -38,6 +38,15 @@ FYP 2018
 5. On browser type "localhost:8000/"
 6. The Web Site is running now.
 7. To close server press Ctrl + C on cmd to exit the server. To re run type "python manage.py runserver" on cmd.
+
+# How to run simple Models File:
+1. change working directory to "CIP\PurchaseIntention2".
+2. Then Type "Scripts\activate" on cmd to activate the virtual environment.
+3. change working directory to "CIP\PurchaseIntention2\djangoWebsite\pages".
+3. open python terminal in cmd by typing "python"
+4. Then type "import ModelTest as mt" on terminal.
+5  Then type mt.output_to_results("Annotated4.csv","AnnotatedData2.csv", "TF-IDF", "Naive Bayes","90","80","70")
+6. Output will show prediction results and accuracy score for model tested. 
 
     
 
