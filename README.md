@@ -37,7 +37,7 @@ FYP 2018
 5. Then finally type "python manage.py runserver" to run the server.
 5. On browser type "localhost:8000/"
 6. The Web Site is running now.
-7. To close server press Ctrl + C to exit the server. To re run type "python manage.py runserver".
+7. To close server press Ctrl + C on cmd to exit the server. To re run type "python manage.py runserver" on cmd.
 
     
 
